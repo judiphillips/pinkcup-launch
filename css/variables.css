@@ -23,7 +23,6 @@ Design Principles
 :root {
 
     /* Brand */
-
     --accent: #E84C8B;
 
     /* Backgrounds */
@@ -62,5 +61,11 @@ Design Principles
     /* Layout */
 
     --content-width:1200px;
+
+    /* Buttons */
+    
+    --button-bg: #333333;
+    --button-hover: #222222;
+    --button-text: #FFFFFF;
 
 }
