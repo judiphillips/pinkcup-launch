@@ -12,3 +12,54 @@ Design Principles
 • Every page should feel calm, clean, and intentional.
 ==========================================
 */
+
+/* ======================================
+   Pink Cup by KLYN
+   Launch Site Design System
+====================================== */
+
+/* COLORS */
+:root {
+
+    /* Brand */
+
+    --accent: #E84C8B;
+
+    /* Backgrounds */
+
+    --white: #FFFFFF;
+    --off-white: #FAF9F6;
+
+    /* Text */
+
+    --text-dark: #2F2F2F;
+    --text-light: #6B6B6B;
+
+    /* Natural */
+
+    --wood-light: #D7B899;
+    --wood-dark: #B88C62;
+
+    /* Borders */
+
+    --border: #ECECEC;
+
+    /* Shadows */
+
+    --shadow-soft:
+        0 10px 30px rgba(0,0,0,.08);
+
+    --shadow-card:
+        0 18px 50px rgba(0,0,0,.10);
+
+    /* Radius */
+
+    --radius-sm:8px;
+    --radius-md:16px;
+    --radius-lg:28px;
+
+    /* Layout */
+
+    --content-width:1200px;
+
+}
