@@ -2,7 +2,7 @@
 
 When naming variables, 
 
-use category-description-variant.extension 
+use category-description-variant.extension format
 
 Examples: 
 
@@ -29,4 +29,9 @@ Examples
 .hero__subtitle {}
 
 .hero__cta {}
+
+
+
+
+
 
