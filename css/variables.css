@@ -68,4 +68,34 @@ Design Principles
     --button-hover: #222222;
     --button-text: #FFFFFF;
 
+    /* Font Sizes */
+
+    --font-size-display: clamp(2.5rem, 5vw, 4.5rem);
+    --font-size-h1: clamp(2rem, 3vw, 3rem);
+    --font-size-h2: 1.5rem;
+    --font-size-body: 1rem;
+    --font-size-caption: 0.875rem;
+
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Spacing */
+    --space-tight: 8px;
+    --space-narrow: 12px;
+    --space-regular: 16px;
+    --space-roomy: 24px;
+    --space-wide: 32px;
+    --space-extra-wide: 40px;
+    --space-generous: 48px;
+
+   /* Letter Spacing */
+    --letter-spacing-tight: -0.03em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-narrow: 0.03em;
+    --letter-spacing-roomy: 0.08em;
+    --letter-spacing-wide: 0.12em;
+
 }

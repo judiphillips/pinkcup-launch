@@ -13,16 +13,6 @@ Design Principles
 ==========================================
 */
 
-:root {
-    --space-xs: 8px;
-    --space-sm: 12px;
-    --space-md: 16px;
-    --space-lg: 24px;
-    --space-xl: 32px;
-    --space-2xl: 40px;
-    --space-3xl: 48px;
-  
-}
 
 /* Set equal margins on all sides to maintain a clean and consistent layout.  */
 
@@ -48,7 +38,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: var(--space-xs);
+    margin-bottom: var(--space-tight);
 }
 
 .logo {
@@ -67,11 +57,11 @@ img{
     width: 100%;
     max-width: var(--content-width);
     margin: 0 auto;
-    padding: var(--space-xl);
+    padding: var(--space-wide);
 
     display: grid;
     grid-template-columns: 1fr;
-    gap: var(--space-2xl);
+    gap: var(--space-extra-wide);
 }
 
 .hero__content {
@@ -82,33 +72,25 @@ img{
 .hero__eyebrow {
     color: var(--accent);
     align-items: left;
-    letter-spacing: var(--text-xl);
-    text-transform: uppercase;
-    font-weight: 600;
-    font-style: bold;
-    margin-bottom: var(--space-xs);
+    margin-bottom: var(--space-tight);
 }
 
 .hero__title {
-    font-size: var(--text-display);
     color: var(--text-dark);
-    margin-top: var(--space-sm);
-    margin-bottom: var(--space-lg);
-    font-optical-sizing: auto;
+    margin-top: var(--space-narrow);
+    margin-bottom: var(--space-roomy);
+
 }
 
 .hero__text {
-    font-size: var(--text_md);
-    letter-spacing: 1.15px;
     color: var(--text-light);
-    margin-bottom: var(--space-sm);
+    margin-bottom: var(--space-narrow);
 }
 
 .hero__visual {
     background: #e8e8e8;
     min-height: 420px;
     border-radius: var(--radius-lg);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +99,7 @@ img{
 .hero__form {
     display: flex;
     flex-direction: column;
-    gap: var(--space-md);
+    gap: var(--space-regular);
 }
 
 .sr-only {
@@ -141,31 +123,3 @@ img{
 
 
 
-
-/* .btn {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding: var(--space-sm) var(--space-md);
-    font-size: var(--text-lg);
-    color: var(--button-text);
-    background-color: var(--button-bg);
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-}
-
-.btn:hover {
-    background-color: var(--button-hover);
-} */
-
-
-/* Responsive Design
-
-@media only screen and (min-width: 1024px) {
-    .logo_container {
-        max-width: 25%;
-    }
-} */
