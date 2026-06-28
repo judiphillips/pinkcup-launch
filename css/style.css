@@ -13,3 +13,20 @@ Design Principles
 ==========================================
 */
 
+:root {
+    --space-xs: 8px;
+    --space-sm: 12px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-2xl: 40px;
+    --space-3xl: 48px;
+
+   
+}
+
+/* Set equal margins on all sides to maintain a clean and consistent layout.  */
+
+html, body {
+    margin: 27px;
+}
