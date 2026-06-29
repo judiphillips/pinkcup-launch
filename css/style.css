@@ -34,7 +34,7 @@ img{
     max-width:100%;
 }
 
-.logo_container {
+.hero__branding {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,18 +53,16 @@ img{
     align-items: center;
 }
 
-.hero__container {
+.container {
     width: 100%;
     max-width: var(--content-width);
     margin: 0 auto;
-    padding: var(--space-wide);
-
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--space-extra-wide);
 }
 
-.hero__content {
+.hero__layout {
     display: flex;
     flex-direction: column;
 }
@@ -85,41 +83,22 @@ img{
 .hero__text {
     color: var(--text-light);
     margin-bottom: var(--space-narrow);
+    letter-spacing: 1.5px;
 }
 
 .hero__visual {
     background: #e8e8e8;
     min-height: 420px;
-    border-radius: var(--radius-lg);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hero__form {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-regular);
-}
-
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-}
 
 @media (min-width: 960px) {
-    .hero__container {
+    .container {
         grid-template-columns: 1fr 1.15fr;
         align-items: center;
     }
 }
-
-
 
