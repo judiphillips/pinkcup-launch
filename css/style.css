@@ -87,12 +87,18 @@ img{
 }
 
 .hero__visual {
-    background: #e8e8e8;
     min-height: 420px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
+.hero__image {
+    width: min(100%, 520px);
+    height: auto;
+}
+
 
 
 @media (min-width: 960px) {
