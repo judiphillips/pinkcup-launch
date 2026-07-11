@@ -13,3 +13,7 @@ Design Principles
 • Pink is an accent.
 • Let the drinks be the artwork.
 • Less, but better.
+
+
+Email Service 
+MailerLite: https://dashboard.mailerlite.com/dashboard
