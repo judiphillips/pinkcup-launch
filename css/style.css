@@ -121,6 +121,27 @@ img{
 }
 
 
+.footer__container {
+    width: 100%;
+    max-width: var(--content-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-tight);
+
+}
+
+
+.copy {
+    color: var(--text-light);
+    font-size: var(--font-size-caption);
+    letter-spacing: 1.25px;
+    text-align: right;
+    padding-bottom: var(--space-tight);
+}
+
+
+
 @media (min-width: 960px) {
     .container {
         grid-template-columns: 1fr 1.15fr;
