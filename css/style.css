@@ -32,19 +32,7 @@ body {
 img{
     display:block;
     max-width:100%;
-}
-
-.hero__branding {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: var(--space-tight);
-}
-
-.logo {
-    display: block;
-    max-width: 50%;
-    height: auto;
+    
 }
 
 .hero {
@@ -53,52 +41,77 @@ img{
     align-items: center;
 }
 
-.container {
+
+.hero__container {
     width: 100%;
     max-width: var(--content-width);
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    gap: var(--space-extra-wide);
+    gap: var(--space-tight);
 }
 
-.hero__layout {
+
+.hero__intro {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-tight);
 }
 
-.hero__eyebrow {
-    color: var(--accent);
-    align-items: left;
-    margin-bottom: var(--space-tight);
-}
-
-.hero__title {
+#hero__title {
+    font-size: var(--font-size-display);
     color: var(--text-dark);
-    margin-top: var(--space-narrow);
-    margin-bottom: var(--space-roomy);
-
-}
-
-.hero__text {
-    color: var(--text-light);
-    margin-bottom: var(--space-narrow);
-    letter-spacing: 1.5px;
+    font-weight: var(--font-weight-bold);
+    margin: var(--space-tight);
 }
 
 .hero__visual {
-    min-height: 420px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    padding: var(--space-tight);
+}
+
+.hero__image {
+    display: block;
+    width: min(70vw, 360px);
+    height: auto;
+    margin: -1rem 0 0 0; 
+    padding: 0;  
+}
+
+.hero__details {
+    display: flex;
+    flex-direction: column;
+    margin: var(--space-narrow);
     align-items: center;
 }
 
 
-.hero__image {
-    width: min(100%, 520px);
+.logo {
+    display: block;
+    max-width: 45%;
     height: auto;
 }
 
+.hero__eyebrow {
+    color: var(--accent);
+    align-items: center;
+    letter-spacing: var(--space-narrow);
+    text-transform: uppercase;
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--space-narrow);
+}
+
+.hero__text {
+    color: var(--text-light);
+    font-size: var(--font-size-body);
+    letter-spacing: 2.0px;
+}
 
 
 @media (min-width: 960px) {
@@ -106,5 +119,17 @@ img{
         grid-template-columns: 1fr 1.15fr;
         align-items: center;
     }
+
+    .logo {
+    max-width: 25%;
+    }
+
+    .hero__eyebrow {
+        letter-spacing: var(--space-roomy);
+        font-size: var(--font-size-h1);
+        font-weight: var(--font-weight-bold);
+    }
+
+
 }
 

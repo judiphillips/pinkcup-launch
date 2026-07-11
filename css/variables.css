@@ -70,10 +70,10 @@ Design Principles
 
     /* Font Sizes */
 
-    --font-size-display: clamp(2.5rem, 5vw, 4.5rem);
+    --font-size-display: clamp(3.0rem, 6vw, 5.0rem);
     --font-size-h1: clamp(2rem, 3vw, 3rem);
     --font-size-h2: 1.5rem;
-    --font-size-body: 1rem;
+    --font-size-body: 1.15rem;
     --font-size-caption: 0.875rem;
 
     /* Font Weights */
