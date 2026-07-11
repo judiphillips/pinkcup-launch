@@ -56,6 +56,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: var(--space-regular);
     padding: var(--space-tight);
 }
 
@@ -73,6 +74,7 @@ img{
     justify-self: center;
     width: 100%;
     padding: var(--space-tight);
+    margin-bottom: var(--space-tight);
 }
 
 .hero__image {
@@ -86,7 +88,7 @@ img{
 .hero__details {
     display: flex;
     flex-direction: column;
-    margin: var(--space-narrow);
+    margin: var(--space-tight);
     align-items: center;
 }
 
