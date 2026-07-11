@@ -83,7 +83,7 @@ Design Principles
     --font-weight-bold: 700;
 
     /* Spacing */
-    --space-tight: 8px;
+    --space-tight: 4px;
     --space-narrow: 12px;
     --space-regular: 16px;
     --space-roomy: 24px;

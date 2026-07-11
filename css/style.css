@@ -114,6 +114,11 @@ img{
 }
 
 
+.hero__form {
+    padding-bottom: 6rem;
+}
+
+
 @media (min-width: 960px) {
     .container {
         grid-template-columns: 1fr 1.15fr;
