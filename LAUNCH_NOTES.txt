@@ -1,0 +1,7 @@
+Pink Cup Pinkmas — navigation refinement
+
+Mobile: second pink navigation bar hidden; hamburger retains Menu, Visit us, Contact and Order online.
+Desktop: existing quick navigation retained.
+Protein Shakes moved to second position in hero copy, page description and menu cards.
+Heading wording and both hero images unchanged.
+Preview locally before publishing.
