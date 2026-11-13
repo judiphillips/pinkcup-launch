@@ -1,0 +1,10 @@
+$kind: http-request
+name: https://apisandbox.dev.clover.com/oauth/token
+description: ""
+url: https://apisandbox.dev.clover.com/oauth/token?client_id={appId}&client_secret={APP_SECRET}&code={AUTHORIZATION_CODE}
+method: GET
+queryParams:
+  client_id: "{appId}"
+  client_secret: "{APP_SECRET}"
+  code: "{AUTHORIZATION_CODE}"
+order: 1000
