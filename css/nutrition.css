@@ -8,3 +8,7 @@
 .nutrition-hero__image-link:focus-visible{outline:3px solid #3a1734;outline-offset:4px}
 .nutrition-hero__mobile-link{display:none}
 @media(max-width:600px){.nutrition-hero{padding:0}.nutrition-hero__image-link{display:none}.nutrition-hero__mobile-link{display:inline-flex;margin:1rem 1.25rem 1.5rem;line-height:1.4}}
+
+/* The approved artwork includes the CTA; use one clickable overlay, not a second visible button. */
+.nutrition-hero__picture{display:block}
+@media(max-width:600px){.nutrition-hero__image-link{display:block;left:25%;top:81%;width:50%;height:10%}.nutrition-hero__mobile-link{display:none}}
